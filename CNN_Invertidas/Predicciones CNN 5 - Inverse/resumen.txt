@@ -1,0 +1,21 @@
+Entrenamiento corto: 9000 muestras, 10 epocas (no es el entrenamiento completo)
+Test BCE: 0.692934 - Pixel acc: 0.5003 - IoU: 0.2679
+
+Prediccion 1 (GPa): C11=3.119  C22=3.785  C66=3.695  C12=0.347  C26=-0.089  C16=-0.146
+  prob min/media/max/std = 0.4289 / 0.5001 / 0.9999 / 0.0115
+  fraccion de 1: real 0.495, predicha 0.393; pixeles acertados 0.495
+
+Prediccion 2 (GPa): C11=2.683  C22=2.402  C66=0.677  C12=1.350  C26=-0.402  C16=-0.307
+  prob min/media/max/std = 0.1292 / 0.4995 / 0.5172 / 0.0065
+  fraccion de 1: real 0.495, predicha 0.357; pixeles acertados 0.511
+
+Prediccion 3 (GPa): C11=2.707  C22=2.290  C66=0.924  C12=1.368  C26=-0.431  C16=-0.281
+  prob min/media/max/std = 0.0436 / 0.4996 / 0.5462 / 0.0074
+  fraccion de 1: real 0.495, predicha 0.358; pixeles acertados 0.501
+
+Prediccion 4 (GPa): C11=3.549  C22=3.701  C66=3.100  C12=0.449  C26=-0.006  C16=-0.335
+  prob min/media/max/std = 0.4462 / 0.5001 / 0.9999 / 0.0114
+  fraccion de 1: real 0.491, predicha 0.392; pixeles acertados 0.498
+
+Diferencia media entre probabilidades de la prediccion 1 y 2: 0.00107
+Correlacion entre pixeles de las predicciones 1 y 2: -0.824
